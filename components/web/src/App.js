@@ -5,9 +5,9 @@ const App = () =>
   <div className="App">
     <header className="App-header">
 
-      <p>
+      <h2>
         Enter Employee Information
-      </p>
+      </h2>
 
       <br></br>
       <br></br>
@@ -33,6 +33,12 @@ const App = () =>
         <input type="radio" name="traveledabroad" value="false" />
         <label for="no">No</label>
 	    </div>
+
+      <br></br>
+
+      <div>
+            <input id="submitbutton" type="submit" className="button"  value="Submit"/>
+      </div>
     </header>
 
     <footer>
