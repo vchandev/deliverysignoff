@@ -18,3 +18,23 @@
 .bp-link {
   color: #61dafb;
 }
+
+input {
+  font-family: helvetica, sans-serif;
+  font-size: 11px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  color: #000000; 
+  border: 1px solid #000000;
+  padding: 10px 30px;
+}
+
+button {
+  font-family: helvetica, sans-serif;
+  font-size: 11px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  color: #000000; 
+  border: 1px solid #000000;
+  padding: 10px 30px;
+}

@@ -4,15 +4,41 @@ import './App.css';
 const App = () => 
   <div className="App">
     <header className="App-header">
-      <h1>
+
+      <p>
+        Enter Employee Information
+      </p>
+
+      <br></br>
+      <br></br>
+
+      <div>
+        <label for="employeename">Employee Name: </label>
+        <input name="employeename" />
+        
+        <br></br>
+
+        <label for="role">Role: </label>      
+        <select name="role">
+          <option>Delivery</option>
+          <option>Chef</option>
+        </select>
+
+        <br></br>
+        <label for="traveled">Traveled abroad?</label>
+        <br></br>
+        <input type="radio" name="traveledabroad" value="true" />
+        <label for="yes">Yes</label>
+        <br></br>
+        <input type="radio" name="traveledabroad" value="false" />
+        <label for="no">No</label>
+	    </div>
+    </header>
+
+    <footer>
         Your new web app, stamped out with <span role="img" aria-label="love">💖</span> and care by&nbsp; 
         <a className="bp-link" href="https://platter.dev" target="_blank" rel="noopener noreferrer">Platter</a>
-      </h1>
-      <h2><span role="img" aria-label="GOGOGO">🏃</span> now get going!</h2>
-      <p>
-        (Edit <code>components/web/src/App.js</code> and save to reload. You are viewing the {process.env.REACT_APP_WHEREAMI} deployment.)
-      </p>
-    </header>
+      </footer>
   </div>;
 
 export default App;
