@@ -28,6 +28,15 @@ input {
   padding: 5px 10px;
 }
 
+.btn btn-default dropdown-toggle {
+  font-size: 14px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  color: #FFFFFF; 
+  border: 1px solid #FFFFFF;
+  padding: 5px 10px; 
+}
+
 select {
   width: 200px;
 }

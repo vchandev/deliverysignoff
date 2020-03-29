@@ -14,12 +14,12 @@ const App = () =>
 
       <div>
         <label for="employeename">Employee Name: </label>
-        <input name="employeename" />
+        <input class="form-control" name="employeename" />
         
         <br></br>
 
         <label for="role">Role: </label>      
-        <select name="role">
+        <select class="form-control" name="role">
           <option>Delivery</option>
           <option>Chef</option>
         </select>
@@ -27,10 +27,9 @@ const App = () =>
         <br></br>
         <label for="traveled">Traveled abroad?</label>
         <br></br>
-        <input type="radio" name="traveledabroad" value="true" />
+        <input class="form-control" type="radio" name="traveledabroad" value="true" />
         <label for="yes">Yes</label>
-        <br></br>
-        <input type="radio" name="traveledabroad" value="false" />
+        <input class="form-control" type="radio" name="traveledabroad" value="false" />
         <label for="no">No</label>
 	    </div>
 
